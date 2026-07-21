@@ -59,4 +59,37 @@ has_criminal_record = False
 if has_good_car and not has_criminal_record:
     print("Eligible for loan")
 
+#comparison operators
+"""Comparison operators are used in situations where you want to
+compare a variable with a character.
+Comparison operators include:
+i)>= - greater than or equals to
+ii)<= - less than or equals to
+iii)== - equals to(equality operator)
+iv)> - greater than
+v)< - less than
+vi)!= - not equals to
+vii)= - this is an assignment operator
+"""
+#example
+temperature = 30
+if temperature > 30 :
+    print("It is a hot day")
+else:
+    print("It is a cold day")
 
+#Task
+"""Let's say you are entering data in a form,If the name is less than 3 characters long
+display name must be atleast 3 characters long otherwise if it is more than 50 characters long 
+display name can be a maximum of 50 characters otherwise display name looks good.
+
+"""
+firstName = 'Peterson'
+nameLength = len(firstName)
+print(nameLength)
+if nameLength < 3 :
+    print("name must be atleast 3 characters long")
+elif nameLength > 50 :
+    print("name can be a maximum of 50 characters")
+else :
+    print("Name is okay")
