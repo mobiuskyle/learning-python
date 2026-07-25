@@ -39,3 +39,10 @@ if word.lower()== word[::-1].lower():
     print('It is a palindrome')
 else:
     print('it is not a palindrome')
+
+"Arithmetic,Operator Precedence and Math Function"
+## exercise 7 - tip calculator
+bill_amount = float(input('Enter the bill amount : '))
+tip_percentage = float(input('Enter the tip percentage : '))
+tip_amount = (bill_amount)*(tip_percentage/100)
+print(tip_amount)
