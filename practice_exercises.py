@@ -15,7 +15,7 @@ print(f'The temperature is {temperatureFahr} Fahrenheits')
 full_name = input('What is your Full name? ')
 print(full_name.lower())
 print(full_name.upper())
-print(full_name[::-1])"""
+print(full_name[::-1])
 
 ## exercise 4
 sentence = input('Write any random sentence of your choice : ')
@@ -24,4 +24,9 @@ print(f'this sentence has {sentence_characters} characters')
 if sentence[0] == sentence[0].upper():
     print('the first letter is in capital')
 else:
-    print('the first letter is in lowercase')
+    print('the first letter is in lowercase')"""
+
+##exercise 5 -simple username generator
+f_name = input('What is your First name? ')
+l_name = input('What is your Last name? ')
+print(f'your username could be [{f_name[0:3].lower()}{l_name.lower()} @gmail.com]')
