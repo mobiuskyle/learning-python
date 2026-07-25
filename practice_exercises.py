@@ -1,4 +1,4 @@
-""""variables,input and type conversion"
+"variables,input and type conversion"
 ## exercise 1
 name=input('What is your name? ')
 age=input('What is your age? ')
@@ -24,9 +24,18 @@ print(f'this sentence has {sentence_characters} characters')
 if sentence[0] == sentence[0].upper():
     print('the first letter is in capital')
 else:
-    print('the first letter is in lowercase')"""
+    print('the first letter is in lowercase')
 
 ##exercise 5 -simple username generator
 f_name = input('What is your First name? ')
 l_name = input('What is your Last name? ')
 print(f'your username could be [{f_name[0:3].lower()}{l_name.lower()} @gmail.com]')
+
+##exercise 6 - palindrome checker
+word = input('Enter any word to check if it is a palindrome : ')
+print(word.lower())
+print(word[::-1].lower())
+if word.lower()== word[::-1].lower():
+    print('It is a palindrome')
+else:
+    print('it is not a palindrome')
