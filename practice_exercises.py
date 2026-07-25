@@ -1,4 +1,4 @@
-#variables,input and type conversion
+"variables,input and type conversion"
 ## exercise 1
 name=input('What is your name? ')
 age=input('What is your age? ')
@@ -10,3 +10,8 @@ temperatureCelcius = input('What is the current temperature? ')
 temperatureFahr = int(temperatureCelcius)*(9/5) + 32
 print(f'The temperature is {temperatureFahr} Fahrenheits')
 
+"Strings , Formatted Strings and String Methods"
+full_name = input('What is your Full name? ')
+print(full_name.lower())
+print(full_name.upper())
+print(full_name[::-1])
