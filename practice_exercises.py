@@ -45,4 +45,13 @@ else:
 bill_amount = float(input('Enter the bill amount : '))
 tip_percentage = float(input('Enter the tip percentage : '))
 tip_amount = (bill_amount)*(tip_percentage/100)
-print(tip_amount)
+total = bill_amount + tip_amount
+print('Your total is : ',total)
+print('Yout tip amount is : ',tip_amount)
+
+## exercise 8 
+first_number = float(input('Enter the first number : '))
+second_number = float(input('Enter the second number : '))
+third_number = float(input('Enter the third number : '))
+average = (first_number+second_number+third_number)//3
+print(f'the average of the three numbers is {average}')
