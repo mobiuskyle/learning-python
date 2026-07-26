@@ -108,3 +108,15 @@ elif BMI >=25 and BMI <=29.9:
     print('You are overweight ')
 else:
     print('Obesity ')
+
+## exercise 14 - simple ATM simulator
+balance  = 1000
+print('Your current balance is : ',balance)
+withdrawal_amount=int(input('enter amount to withdraw : '))
+while withdrawal_amount >0 :
+    if withdrawal_amount>balance:
+        print('insuffiicient funds')
+    else:
+        new_balance = balance - withdrawal_amount
+        print('Your new balance is : ',new_balance)
+    break
