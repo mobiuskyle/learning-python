@@ -76,3 +76,12 @@ if score>=0 and score<=100:
         print("You have a Grade F ")
 else:
     print("Number is Invalid,should be within the range of 0-100")
+## exercise 11 - login checker
+fixed_username = 'mobiuskyle'
+fixed_password = 'BLACKPINK'
+username = input('enter username : ')
+password = input('enter password : ')
+if username==fixed_username and password==fixed_password:
+    print('Access Granted')
+else:
+    print('Access denied')
