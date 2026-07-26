@@ -1,17 +1,17 @@
 "variables,input and type conversion"
-## exercise 1
+## exercise 1 - prints name and age
 name=input('What is your name? ')
 age=input('What is your age? ')
 nextAge = int(age)+1
 print(f"Hello [{name}] next year you'll be [{nextAge}]")
 
-## exercise 2
+## exercise 2 - temperature converter program
 temperatureCelcius = input('What is the current temperature? ')
 temperatureFahr = int(temperatureCelcius)*(9/5) + 32
 print(f'The temperature is {temperatureFahr} Fahrenheits')
 
 "Strings , Formatted Strings and String Methods"
-## exercise 3 
+## exercise 3  - case converter program
 full_name = input('What is your Full name? ')
 print(full_name.lower())
 print(full_name.upper())
@@ -55,3 +55,10 @@ second_number = float(input('Enter the second number : '))
 third_number = float(input('Enter the third number : '))
 average = (first_number+second_number+third_number)//3
 print(f'the average of the three numbers is {average}')
+
+## exercise 9 - checks if number is even or odd
+number = int(input('enter number : '))
+if number%2==0:
+    print('Number is even')
+else:
+    print('Number is odd')
