@@ -1,4 +1,4 @@
-""""variables,input and type conversion"
+"variables,input and type conversion"
 ## exercise 1 - prints name and age
 name=input('What is your name? ')
 age=input('What is your age? ')
@@ -85,7 +85,7 @@ if username==fixed_username and password==fixed_password:
     print('Access Granted')
 else:
     print('Access denied')
-"""
+
 ## exercise 12 - leap year checker
 year = int(input('Enter year : '))
 if year%4==0 and year%100!=0:
@@ -94,3 +94,17 @@ elif year%400 == 0:
     print('it is a leap year')
 else:
     print('It is not a leap year')
+
+## exercise 13 - BMI Calculator
+weight = float(input('What is your weight in kg : '))
+height = float(input('what is your height in meters : '))
+BMI = weight/(height**2)
+print('Your BMI is : ',BMI)
+if BMI >=0 and BMI <18.5:
+    print('You are underweight')
+elif BMI>=18.5 and BMI<=24.9:
+    print('You have healthy weight ')
+elif BMI >=25 and BMI <=29.9:
+    print('You are overweight ')
+else:
+    print('Obesity ')
