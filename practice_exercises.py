@@ -1,4 +1,4 @@
-"variables,input and type conversion"
+""""variables,input and type conversion"
 ## exercise 1 - prints name and age
 name=input('What is your name? ')
 age=input('What is your age? ')
@@ -85,3 +85,12 @@ if username==fixed_username and password==fixed_password:
     print('Access Granted')
 else:
     print('Access denied')
+"""
+## exercise 12 - leap year checker
+year = int(input('Enter year : '))
+if year%4==0 and year%100!=0:
+    print('It is a leap year')
+elif year%400 == 0:
+    print('it is a leap year')
+else:
+    print('It is not a leap year')
