@@ -62,3 +62,17 @@ if number%2==0:
     print('Number is even')
 else:
     print('Number is odd')
+
+## exercise 10 - simple grade display program
+score = int(input('Enter score : '))
+if score>=0 and score<=100:
+    if score>=90:
+        print("You have a Grade A")
+    elif score>=80 and score<=89:
+        print("You have a Grade B ")
+    elif score>=70 and score<=79:
+        print("You have a Grade C ")
+    else:
+        print("You have a Grade F ")
+else:
+    print("Number is Invalid,should be within the range of 0-100")
