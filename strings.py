@@ -1,4 +1,4 @@
-"""#formatted strings
+#formatted strings
 first = 'John'
 last = 'Smith'
 msg = f'{first} [{last}] likes to cook'                                                                                                                             
@@ -12,7 +12,7 @@ Course = 'Learning Python'
 print(len(Course))
 
 ## to change the case of a string to either lowercase or uppercase and vice versa
-we use the .upper() and .lower() functions
+## we use the .upper() and .lower() functions
 print(Course.upper())
 print(Course.lower())
 
@@ -25,9 +25,8 @@ print(Course.find('P'))
 print(Course.replace('Python' , 'Java'))
 print(Course.replace('P' , 'J'))
 
-"""
-##String Methods Practice Exercises
 
+##String Methods Practice Exercises
 ##Practice 1 - Very Basic Email Validator
 
 email_address = input('What is your email address : ')
@@ -42,3 +41,8 @@ words = sentence.split()
 no_of_characters = len(words)
 print(words)
 print(no_of_characters)
+
+##Practice 3  - Title case converter
+sentence1 = input('Enter a sentence in lowercase')
+sentence2 = sentence1.title()
+print(sentence2)
