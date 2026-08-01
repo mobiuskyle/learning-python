@@ -35,3 +35,10 @@ if '@' in email_address and email_address.endswith('.com') :
     print('It is a valid email address ')
 else:
     print('It is not a valid email address ')
+
+##Practice 2 - Word counter
+sentence= input('Enter a random sentence : ')
+words = sentence.split()
+no_of_characters = len(words)
+print(words)
+print(no_of_characters)
